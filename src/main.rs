@@ -1,4 +1,8 @@
-mod functions;
+mod cli;
+// mod enums;
+// mod structs;
+// mod pointer_ref;
+// mod functions;
 // mod loops;
 // mod conditionals;
 // mod vectors;
@@ -10,7 +14,11 @@ mod functions;
 // mod print;
 
 fn main() {
-  functions::run();
+  cli::run();
+  // enums::run();
+  // structs::run();
+  // pointer_ref::run();
+  // functions::run();
   // loops::run();
   // conditionals::run();
   // vectors::run();
